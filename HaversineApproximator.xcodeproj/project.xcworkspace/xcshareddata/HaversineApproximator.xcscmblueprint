@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "910689A1C7ADA0F3F5CCE1499D13AE373014B62C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "910689A1C7ADA0F3F5CCE1499D13AE373014B62C" : 0,
+    "8AA84AA2F4F37E6AEC61A21D1821FDA770EC2C40" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDE101C7-F4B3-47AA-9845-40AA54F75FA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "910689A1C7ADA0F3F5CCE1499D13AE373014B62C" : "HaversineApproximator\/",
+    "8AA84AA2F4F37E6AEC61A21D1821FDA770EC2C40" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HaversineApproximator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HaversineApproximator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:andywhale\/swift-haversine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AA84AA2F4F37E6AEC61A21D1821FDA770EC2C40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:andywhale\/haversine-approximator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "910689A1C7ADA0F3F5CCE1499D13AE373014B62C"
+    }
+  ]
+}

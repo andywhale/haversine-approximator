@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var longitudeTextField : UITextField!
     @IBOutlet var latitudeTextField : UITextField!
     @IBOutlet var resultsTextView : UITextView!

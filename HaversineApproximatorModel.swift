@@ -88,12 +88,18 @@ class HaversineApproximatorModel {
         
         var distances = [String: Double]()
         
-        let locationA = location(name: "Bristol", longitude: 2.5833, latitude: 51.4500)
-        let locationB = location(name: "Anglesey", longitude: -4.310578, latitude: 53.255694)
+        var locations = [location]()
+        
+        locations.append(location(name: "Anglesey", longitude: -4.310578, latitude: 53.255694))
+        locations.append(location(name: "Bristol", longitude: 2.5833, latitude: 51.4500))
+        locations.append(location(name: "Leeds", longitude: -1.549077, latitude: 53.800755))
+        locations.append(location(name: "London (Charing Cross)", longitude: -0.127758, latitude: 51.507351))
+        locations.append(location(name: "New York", longitude: -74.005941, latitude: 40.712784))
         
         let distanceCalculator = HaversineApproximator()
-        distances[locationA.name] = round(distanceCalculator.sphericalDistanceInMiles(locationFrom, locationTo: locationA) * 100) / 100
-        distances[locationB.name] = round(distanceCalculator.sphericalDistanceInMiles(locationFrom, locationTo: locationB) * 100) / 100
+        for location in locations {
+            distances[location.name] = round(distanceCalculator.sphericalDistanceInMiles(locationFrom, locationTo: location) * 100) / 100
+        }
         
         return distances
     }
